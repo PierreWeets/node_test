@@ -24,26 +24,26 @@ node_first_app
 ```
 
 ## Initialize NPM and install node_modules
-# git clone the project
+### git clone the project
 
-# At the root of the project, in a new file `.env`, add:  
+### At the root of the project, in a new file `.env`, add:  
 * DB_CONNECTION_STRING = "[MongoDB string]" (see [MongoDB atlas connection string](https://docs.mongodb.com/manual/reference/connection-string/))  
 * PORT="[Port Number]"			//Port Number used as : [http://localhost:3000/](http://localhost:3000/)
 
-# At the root of the project, in a new file `.gitignore`,  
+### At the root of the project, in a new file `.gitignore`,  
 add `node_modules` in it.
 
-# Create Node dependancies :  
+### Create Node dependancies :  
 At the root of the project, run:     
 `npm init`.
 
 the terminal will ask for information about the kind of app, ignore that, press return for all of them (about 10 times) 
 
-# Install the express and body-parser modules :   
+### Install the express and body-parser modules :   
 At the root of the project, run:   
 `npm i --save express body-parser`  
 
-# Install the dotenv:  
+### Install the dotenv:  
 At the root of the project, run:  
 `npm install dotenv`
 
