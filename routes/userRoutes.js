@@ -1,6 +1,6 @@
 const express = require('express');
 //const foodModel = require('../models/FoodModel.js');
-const userModel = require('../models/FoodModel.js');
+const userModel = require('../models/userModel.js');
 
 const app = express();
 

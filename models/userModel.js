@@ -6,7 +6,6 @@ const UserModel = new mongoose.Schema({
     age: { type : Number,
             min :2,
             required: true}
-
 });
 
 //'user' = used to create in MongoDB, the collection 'users' ( ='user'+'s' added automatically)
